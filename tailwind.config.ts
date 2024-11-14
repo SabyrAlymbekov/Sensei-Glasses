@@ -24,8 +24,11 @@ const config: Config = {
 				'montserrat-medium': ["var(--font-montserrat-medium)"],
 				'montserrat-semibold': ["var(--font-montserrat-semibold)"]
 			},
+			backgroundImage: {
+				main: "url(/public/assets/images/bgc-dots.svg)"
+			},
 			backgroundColor: {
-				block: "#F7EDE8",
+				block: "#e7e7e7",
 
 			},
   		colors: {

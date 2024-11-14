@@ -5,8 +5,15 @@ import Image from "next/image";
 
 const MainContent = () => {
     return (
-      <div className="container">
-          <div className="flex justify-center items-center flex-col my-10">
+      <div className="container realtive overflow-hidden">
+          <Image
+            src="/assets/images/bgc-dots.svg"
+            width={400}
+            height={400}
+            alt="bgc-dots image"
+            className="absolute object-cover object-center w-full h-full top-0 left-0 z-[-1] opacity-50"
+          />
+          <div className="flex justify-center items-center flex-col mt-10 mb-14">
               <div className="relative w-full px-16 py-16 my-2 max-lg:px-10">
                   <Image src="/assets/images/radialbg2.jpg" alt="home page image" width={848} height={477}
                          className="absolute top-0 left-0 w-full h-full object-cover backdrop-blur-2xl rounded-lg"/>
