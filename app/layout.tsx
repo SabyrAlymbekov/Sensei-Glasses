@@ -1,19 +1,43 @@
+
 import React from "react"
 import type { Metadata } from "next";
 import "./globals.css";
-import { Inter, Archivo } from 'next/font/google'
+// import { Inter, Archivo } from 'next/font/google'
+import localFont from 'next/font/local';
+// const inter = Inter({
+//   subsets: ['latin'],
+//   variable: '--font-inter',
+//   display: 'swap',
+// })
+//
+// const archivo = Archivo({
+//   subsets: ['latin'],
+//   variable: '--font-archivo',
+//   display: 'swap',
+// })
 
-const inter = Inter({ 
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
-})
 
-const archivo = Archivo({
-  subsets: ['latin'],
-  variable: '--font-archivo',
-  display: 'swap',
-})
+const montserratBold = localFont(
+  {
+    src: "./fonts/montserrat-alternates/MontserratAlternates-Bold.ttf",
+    variable: "--font-montserrat-bold"
+  }
+)
+
+const montserratMedium = localFont(
+  {
+    src: "./fonts/montserrat-alternates/MontserratAlternates-Medium.ttf",
+    variable: "--font-montserrat-medium"
+  }
+)
+
+const montserratSemiBold = localFont(
+  {
+    src: "./fonts/montserrat-alternates/MontserratAlternates-SemiBold.ttf",
+    variable: "--font-montserrat-semibold"
+  }
+)
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -26,7 +50,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${archivo.variable}`}>
+    <html lang="en" className={`${montserratBold.variable} ${montserratMedium.variable} ${montserratSemiBold.variable}`}>
       <body>
         {children}
       </body>

@@ -19,6 +19,15 @@ const config: Config = {
   		}
   	},
   	extend: {
+			fontFamily: {
+				'montserrat-bold': ["var(--font-montserrat-bold)"],
+				'montserrat-medium': ["var(--font-montserrat-medium)"],
+				'montserrat-semibold': ["var(--font-montserrat-semibold)"]
+			},
+			backgroundColor: {
+				block: "#F7EDE8",
+
+			},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
