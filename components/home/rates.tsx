@@ -1,5 +1,4 @@
 import React from 'react';
-import Rate from "@/components/home/rate";
 import Image from 'next/image';
 import RatesSwiper from "@/components/home/ratesSwiper";
 

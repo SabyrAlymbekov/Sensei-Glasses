@@ -1,7 +1,14 @@
 import React from 'react';
 import {Button} from "@/components/ui/button";
 
-const MemberSub = ({popular, title, description}) => {
+interface Props {
+  popular?: boolean;
+  title?: string;
+  description: string;
+}
+
+
+const MemberSub : React.FC<Props> = ({popular, title, description}) => {
   return (
     <div className={`${popular ? 'bg-orange_light border-orange' : ''} member pt-[60px] w-full pb-[30px] px-10 rounded-lg border-[1.5px] border-black`}>
       <div className="flex flex-col gap-[90px]">

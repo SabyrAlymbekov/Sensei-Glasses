@@ -1,7 +1,15 @@
+// types/subscription.ts
+
+interface SubscriptionItem {
+  popular: boolean;
+  name: string;
+  price: number;
+  description: string;
+  included: string[];
+}
 
 
-
-const subscription: object[] = [
+const subscription: SubscriptionItem[] = [
   {
     name: 'Member',
     description: 'This is a member',

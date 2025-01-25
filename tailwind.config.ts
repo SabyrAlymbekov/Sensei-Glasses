@@ -9,7 +9,7 @@ const config: Config = {
   ],
   theme: {
   	container: {
-  		center: 'true',
+  		center: true,
   		padding: {
   			DEFAULT: '1rem',
   			md: '2rem'
@@ -28,7 +28,7 @@ const config: Config = {
 				'montserrat-semibold': ["var(--font-montserrat-semibold)"]
 			},
 			backgroundImage: {
-				main: "url(/public/assets/images/bgc-dots.svg)"
+				main: "url(/assets/images/bgc-dots.svg)"
 			},
 			backgroundColor: {
 				block: "#f8f8f8",

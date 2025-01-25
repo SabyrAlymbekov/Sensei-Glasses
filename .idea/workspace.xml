@@ -5,26 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9fd3167-4ba0-44f3-9498-d1cc24c48c62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/home/rate.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/home/rates.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/home/ratesSwiper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/home/subscriptionHome.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/shared/subscriptions/memberInfo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/shared/subscriptions/memberSub.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/shared/subscriptions/subscriptions.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants/subscription.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/left-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/right-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/initPayment/route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/(home)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(home)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/home/AboutUs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/AboutUs.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/home/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/navigation-menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/navigation-menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/order/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/order/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/rate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/rate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/rates.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/rates.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/subscriptions/memberInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/subscriptions/memberInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/subscriptions/memberSub.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/subscriptions/memberSub.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/subscriptions/subscriptions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/subscriptions/subscriptions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/subscription.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/subscription.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TestInitPay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TestInitPay.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +100,7 @@
       <workItem from="1733045234348" duration="6297000" />
       <workItem from="1733732184570" duration="7000" />
       <workItem from="1737450525465" duration="2969000" />
+      <workItem from="1737814398473" duration="2385000" />
     </task>
     <servers />
   </component>
