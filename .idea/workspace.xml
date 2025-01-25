@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c9fd3167-4ba0-44f3-9498-d1cc24c48c62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(root)/(home)/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(root)/order/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/home/main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/shared/header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/shared/header/nav.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants/navigation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/cart.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/GeistMonoVF.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/GeistVF.woff" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/home/rate.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/home/rates.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/home/ratesSwiper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/home/subscriptionHome.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/subscriptions/memberInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/subscriptions/memberSub.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/subscriptions/subscriptions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/subscription.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/left-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/right-arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(home)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(home)/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/AboutUs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/AboutUs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/navigation-menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/navigation-menu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
@@ -26,34 +32,66 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Bekjan777&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SabyrAlymbekov/Sensei-Glasses.git&quot;,
+    &quot;accountId&quot;: &quot;80ce9689-1e2f-4918-80a4-0c4bc749d08c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2op8gL80dVLzMpUFXGWig5SDobe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bekzhan/Documents/projects/sites/Sensei-Glasses/app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/bekzhan/Documents/projects/sites/Sensei-Glasses/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/icons" />
+      <recent name="$PROJECT_DIR$/public/assets/images" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
       </set>
     </attachedChunks>
   </component>
@@ -66,6 +104,11 @@
       <option name="presentableId" value="Default" />
       <updated>1731555266478</updated>
       <workItem from="1731555267724" duration="411000" />
+      <workItem from="1731556364881" duration="12685000" />
+      <workItem from="1731842368252" duration="967000" />
+      <workItem from="1733045234348" duration="6297000" />
+      <workItem from="1733732184570" duration="7000" />
+      <workItem from="1737450525465" duration="2969000" />
     </task>
     <servers />
   </component>

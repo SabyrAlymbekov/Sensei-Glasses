@@ -51,7 +51,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${montserratBold.variable} ${montserratMedium.variable} ${montserratSemiBold.variable}`}>
-      <body>
+      <body className="bg-block">
         {children}
       </body>
     </html>

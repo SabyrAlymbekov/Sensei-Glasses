@@ -76,4 +76,46 @@
                 #000000;
     filter: blur(100px);
   }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+
+  }
+
+  /* Style the pagination container */
+  /*.custom-pagination {*/
+  /*  position: absolute;*/
+  /*  z-index: 1000;*/
+  /*  top: 100%; !* Размещаем ниже Swiper *!*/
+  /*  left: 0;*/
+  /*  width: 100%;*/
+  /*  text-align: center; !* Выравнивание по центру (опционально) *!*/
+  /*  !* Добавьте дополнительные стили по необходимости *!*/
+  /*}*/
+
+  .custom-pagination{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  /* Стили для точек пагинации */
+  .custom-pagination .swiper-pagination-bullet {
+    background-color: #a2a2a2;
+    /* Другие стили */
+  }
+
+  .custom-pagination .swiper-pagination-bullet-active {
+    background-color: #CD4631;
+    /* Другие стили */
+  }
 }

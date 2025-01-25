@@ -19,6 +19,9 @@ const config: Config = {
   		}
   	},
   	extend: {
+			boxShadow: {
+				'btn-shadow': '4px 4px 0 0 rgba(0, 0, 0, 0.25)',
+			},
 			fontFamily: {
 				'montserrat-bold': ["var(--font-montserrat-bold)"],
 				'montserrat-medium': ["var(--font-montserrat-medium)"],
@@ -28,10 +31,14 @@ const config: Config = {
 				main: "url(/public/assets/images/bgc-dots.svg)"
 			},
 			backgroundColor: {
-				block: "#e7e7e7",
-
+				block: "#f8f8f8",
+				gray: "#4f5962",
+				bg_orange: "#F7EDE8"
 			},
   		colors: {
+				greyish: '#4D4D4D',
+				orange: '#CD4631',
+				orange_light: '#F7EDE8',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
