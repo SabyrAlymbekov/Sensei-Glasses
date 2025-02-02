@@ -6,13 +6,13 @@ const AboutUs = () => {
   return (
     <section className="bg-white relative flex flex-col items-center justify-center">
       <div className="container">
-        <div className="bg-gray rounded-2xl my-32 p-16 text-white">
+        <div className="bg-greyish rounded-2xl my-32 p-16 text-white">
           <div className="inner flex flex-col gap-14">
 
-            <h1 className="text-[59px] font-montserrat-bold w-1/2 text-center mx-auto leading-tight">
-              Одень. Попробуй. Начни видеть вновь.
+            <h1 className="text-4xl md:text-5xl font-montserrat-bold text-center mx-auto leading-tight">
+              Одень и Попробуй. Начни видеть вновь.
             </h1>
-            <div className="flex gap-32 relative justify-between">
+            <div className="flex gap-32 relative flex-col sm:flex-row sm:justify-between">
               {/*<Image*/}
               {/*  src="/assets/images/arrows.svg"*/}
               {/*  width={75}*/}

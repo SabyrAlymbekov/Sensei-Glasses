@@ -36,7 +36,7 @@ const config: Config = {
 				bg_orange: "#F7EDE8"
 			},
   		colors: {
-				greyish: '#4D4D4D',
+				greyish: '#2c2c2c',
 				orange: '#CD4631',
 				orange_light: '#F7EDE8',
   			background: 'hsl(var(--background))',

@@ -18,13 +18,13 @@ const MainContent = () => {
                   <Image src="/assets/images/radialbg2.jpg" alt="home page image" width={848} height={477}
                          className="absolute top-0 left-0 w-full h-full object-cover backdrop-blur-xl rounded-lg"/>
                   <Image src="/assets/images/radialbg2.jpg" alt="home page image" width={848} height={477}
-                         className="absolute top-0 left-0 w-full h-full object-cover blur-2xl rounded-lg"/>
+                         className="xs:block hidden absolute top-0 left-0 w-full h-full object-cover blur-2xl rounded-lg"/>
                   <div className="rounded-lg flex flex-col gap-3 overflow-hidden relative">
-                      <h1 className="text-4xl lg:text-5xl font-bold mb-4 font-montserrat-bold uppercase text-white z-2">
+                      <h1 className="text-4xl md:text-5xl font-bold mb-4 font-montserrat-bold uppercase text-white z-2">
                           {/* приложение для поддержки людей с ограниченными возможностями */}
                           SmartAI-glasses for blind and visually impaired people
                       </h1>
-                      <p className="text-2xl mb-6  text-white z-2">
+                      <p className="text-xl md:text-2xl mb-6  text-white z-2">
                           {/* Уникальное приложение и технологически продвинутые очки, помогающие слепым и слабовидящим ориентироваться в пространстве и чувствовать себя в безопасности. */}
                           Unique application and technologically advanced glasses, helping the blind and visually
                           impaired to navigate and feel safe.

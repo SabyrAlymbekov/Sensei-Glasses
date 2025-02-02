@@ -14,15 +14,20 @@ const MemberSub : React.FC<Props> = ({popular, title, description}) => {
       <div className="flex flex-col gap-[90px]">
 
         <div className="flex flex-col gap-5">
-          <h1 className="font-montserrat-bold text-4xl flex justify-between items-center">{title}{ popular && <span
-            className="text-base font-montserrat-medium h-[25px] text-white bg-orange flex justify-between items-center box-content px-4 py-1 rounded">most popular</span>}</h1>
+          <h1 className="xl:flex font-montserrat-bold text-4xl hidden flex-col lg:flex-row lg:justify-between items-center">{title}{ popular && <span
+            className="text-xs lg:text-base font-montserrat-medium h-[25px] text-white bg-orange flex justify-between items-center box-content px-4 py-1 rounded">most popular</span>}</h1>
+          <h1 className="xl:hidden font-montserrat-bold text-4xl flex flex-row justify-between items-center">{title}{ popular && <span
+            className="text-xs lg:text-base font-montserrat-medium h-[25px] text-white bg-orange flex justify-between items-center box-content px-4 py-1 rounded">popular</span>}</h1>
           <p>{description}</p>
         </div>
-        <div className="btns flex justify-between">
-            <Button className="px-8 py-5 col-span-2 w-[160px] h-[62px] font-montserrat-semibold text-base">Subscribe</Button>
-            <div className="flex flex-col">
-              <span className="price text-orange text-2xl font-montserrat-semibold">$9.99</span>
-              <span className="text-greyish text-base font-montserrat-medium">/month</span>
+        <div className="btns flex md:flex-row flex-col-reverse items-end gap md:justify-between">
+          <div className="w-full md:w-[160px] h-[62px]">
+            <Button className="w-full h-full col-span-2  font-montserrat-semibold text-base">Subscribe</Button>
+
+          </div>
+            <div className="flex flex-col text-right">
+              <span className="price text-orange text-base md:text-2xl font-montserrat-semibold">$9.99</span>
+              <span className="text-greyish text-sm md:text-base font-montserrat-medium">/month</span>
             </div>
         </div>
       </div>
