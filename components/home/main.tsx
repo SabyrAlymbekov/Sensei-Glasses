@@ -49,13 +49,13 @@ const MainContent = () => {
               {/*    />*/}
 
           </div>
-          <Image
-            src="/assets/images/Scribble.svg"
-            alt="home page image"
-            width={150}
-            height={150}
-            className="absolute bottom-[-75px] z-10"
-          />
+          {/*<Image*/}
+          {/*  src="/assets/images/Scribble.svg"*/}
+          {/*  alt="home page image"*/}
+          {/*  width={150}*/}
+          {/*  height={150}*/}
+          {/*  className="absolute bottom-[-75px] z-10"*/}
+          {/*/>*/}
       </div>
     )
 }
