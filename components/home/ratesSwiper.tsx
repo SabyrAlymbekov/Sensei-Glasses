@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useRef } from 'react';
+import React, { useRef } from 'react';
 import Rate from "@/components/home/rate";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
