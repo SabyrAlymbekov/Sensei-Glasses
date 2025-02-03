@@ -11,7 +11,7 @@ interface RateProps {
 // 2. Annotate the component with the Props interface
 const Rate: React.FC<RateProps> = ({ avatar, text, name }) => {
   return (
-    <div className=" bg-white rounded-lg p-8 md:p-10 border border-black">
+    <div className=" bg-white rounded-lg p-5 sm:p-8 md:p-10 border border-black">
       <div className="w-full flex flex-col">
         <p className="text-8xl font-bold leading-[80px] text-orange">“</p>
         <p className="w-full mb-5">

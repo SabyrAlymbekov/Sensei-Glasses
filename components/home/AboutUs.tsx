@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <section className="bg-white relative flex flex-col items-center justify-center">
       <div className="container">
-        <div className="bg-greyish rounded-2xl my-32 p-8 md:p-16 text-white">
+        <div className="bg-greyish rounded-2xl my-32 py-10 px-8 md:p-16 text-white">
           <div className="inner flex flex-col gap-14">
 
             <h1 className="text-2xl md:text-3xl font-montserrat-bold text-center mx-auto leading-tight">

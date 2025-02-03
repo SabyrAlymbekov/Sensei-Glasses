@@ -10,8 +10,8 @@ interface Props {
 
 const MemberSub : React.FC<Props> = ({popular, title, description}) => {
   return (
-    <div className={`${popular ? 'bg-orange_light border-orange' : ''} member md:pt-[60px] w-full md:pb-[30px] py-8 px-10 rounded-lg border-[1.5px] border-black`}>
-      <div className="flex flex-col gap-[90px]">
+    <div className={`${popular ? 'bg-orange_light border-orange' : ''} member md:pt-[60px] w-full md:pb-[30px] sm:p-10 p-8 rounded-lg border-[1.5px] border-black`}>
+      <div className="flex flex-col gap-[70px]">
 
         <div className="flex flex-col gap-5">
           <h1 className="xl:flex font-montserrat-bold text-4xl hidden flex-col lg:flex-row lg:justify-between items-center">{title}{ popular && <span
@@ -20,8 +20,8 @@ const MemberSub : React.FC<Props> = ({popular, title, description}) => {
             className="text-xs lg:text-base font-montserrat-medium h-[25px] text-white bg-orange flex justify-between items-center box-content px-4 py-1 rounded">popular</span>}</h1>
           <p>{description}</p>
         </div>
-        <div className="btns flex md:flex-row flex-col-reverse items-end gap md:justify-between">
-          <div className="w-full md:w-[160px] h-[62px]">
+        <div className="btns flex md:flex-row flex-col-reverse items-end gap-2 md:justify-between">
+          <div className="w-full h-[50px] md:w-[160px] md:h-[62px]">
             <Button className="w-full h-full col-span-2  font-montserrat-semibold text-base">Subscribe</Button>
 
           </div>
