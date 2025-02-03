@@ -10,7 +10,7 @@ interface Props {
 
 const MemberSub : React.FC<Props> = ({popular, title, description}) => {
   return (
-    <div className={`${popular ? 'bg-orange_light border-orange' : ''} member pt-[60px] w-full pb-[30px] px-10 rounded-lg border-[1.5px] border-black`}>
+    <div className={`${popular ? 'bg-orange_light border-orange' : ''} member md:pt-[60px] w-full md:pb-[30px] py-8 px-10 rounded-lg border-[1.5px] border-black`}>
       <div className="flex flex-col gap-[90px]">
 
         <div className="flex flex-col gap-5">

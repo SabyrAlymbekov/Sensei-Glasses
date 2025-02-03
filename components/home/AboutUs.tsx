@@ -6,13 +6,13 @@ const AboutUs = () => {
   return (
     <section className="bg-white relative flex flex-col items-center justify-center">
       <div className="container">
-        <div className="bg-greyish rounded-2xl my-32 p-16 text-white">
+        <div className="bg-greyish rounded-2xl my-32 p-8 md:p-16 text-white">
           <div className="inner flex flex-col gap-14">
 
-            <h1 className="text-4xl md:text-5xl font-montserrat-bold text-center mx-auto leading-tight">
+            <h1 className="text-2xl md:text-3xl font-montserrat-bold text-center mx-auto leading-tight">
               Одень и Попробуй. Начни видеть вновь.
             </h1>
-            <div className="flex gap-32 relative flex-col sm:flex-row sm:justify-between">
+            <div className="flex gap-5 md:gap-32 relative flex-col sm:flex-row sm:justify-between">
               {/*<Image*/}
               {/*  src="/assets/images/arrows.svg"*/}
               {/*  width={75}*/}
@@ -27,9 +27,9 @@ const AboutUs = () => {
                     alt="questions"
                     width={100}
                     height={100}
-                    className="q&a w-[300px] h-[250px]"
+                    className="q&a w-[200px] h-[200px]"
                   />
-                  <p className="font-montserrat-medium text-base">Lorem ipsum dolor sit amet, consectetur adipiscing
+                  <p className="font-montserrat-medium text-base text-center">Lorem ipsum dolor sit amet, consectetur adipiscing
                     elit.
                     Curabitur ac ultrices odio. </p>
 
@@ -42,10 +42,10 @@ const AboutUs = () => {
                     alt="questions"
                     width={100}
                     height={100}
-                    className="q&a w-[250px] h-[250px]"
+                    className="q&a w-[200px] h-[200px]"
                   />
 
-                  <p className="font-montserrat-medium text-base">Lorem ipsum dolor sit amet, consectetur adipiscing
+                  <p className="font-montserrat-medium text-base text-center">Lorem ipsum dolor sit amet, consectetur adipiscing
                     elit.
                     Curabitur ac ultrices odio. </p>
                 </div>

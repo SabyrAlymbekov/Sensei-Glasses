@@ -12,10 +12,10 @@ const Rates = () => {
   return (
     <section className="relative flex flex-col items-center rates py-32">
       <div className="container relative">
-        <h1 className="text-4xl md:text-5xl font-montserrat-bold text-center leading-tight ">
+        <h1 className="text-2xl md:text-3xl font-montserrat-bold text-center leading-tight ">
           Что же говорят сами СЛЕПЫЕ ?
         </h1>
-        <p className="text-center text-xl my-10">Lorem ipsum dolor sit amet.</p>
+        <p className="text-center text-base my-10">Lorem ipsum dolor sit amet.</p>
         <div className="section comments w-full">
 
           <RatesSwiper/>
