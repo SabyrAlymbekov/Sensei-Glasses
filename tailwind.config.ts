@@ -32,11 +32,12 @@ const config: Config = {
 			},
 			backgroundColor: {
 				block: "#f8f8f8",
-				gray: "#4f5962",
+				gray: "#EDF3F7",
 				bg_orange: "#F7EDE8"
+
 			},
   		colors: {
-				greyish: '#2c2c2c',
+				greyish: '#4D4D4D',
 				orange: '#CD4631',
 				orange_light: '#F7EDE8',
   			background: 'hsl(var(--background))',

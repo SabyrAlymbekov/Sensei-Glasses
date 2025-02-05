@@ -19,7 +19,7 @@ const subscription: SubscriptionItem[] = [
   },
   {
     name: 'Family',
-    description: 'This is a member This is a member This is a member This is a member This is a member This is a member This is a member This is a member ',
+    description: 'This is a member This is a member This is a member This is a member This is a member This is a member Th',
     price: 9.99,
     included: ['Exclusive content', '5% Discount on Merch', 'Join the Community', 'Livestreaming Access'],
     popular: true

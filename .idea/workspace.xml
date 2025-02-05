@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9fd3167-4ba0-44f3-9498-d1cc24c48c62" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/components/home/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/home/news.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(home)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(home)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/AboutUs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/AboutUs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/rate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/rate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/rates.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/rates.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/subscriptionHome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/subscriptionHome.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/subscriptions/subscriptions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/subscriptions/subscriptions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/subscription.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/subscription.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/qs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/qs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -92,11 +102,24 @@
       <workItem from="1737814398473" duration="4835000" />
       <workItem from="1737964391290" duration="1831000" />
       <workItem from="1738298804308" duration="898000" />
-      <workItem from="1738491278398" duration="7533000" />
+      <workItem from="1738491278398" duration="12072000" />
+      <workItem from="1738751171863" duration="3762000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/home/rates.tsx</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

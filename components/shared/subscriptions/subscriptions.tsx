@@ -13,7 +13,7 @@ const Subscriptions = () => {
   return (
     <>
 
-      <div className="lg:grid subscriptions hidden grid-cols-3 grid-rows-3 gap-5">
+      <div className="lg:grid subscriptions hidden grid-cols-3 grid-rows-2 gap-5">
         <MemberSub
           popular={first.popular}
           title={first.name}

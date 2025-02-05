@@ -1,16 +1,33 @@
 import React from 'react';
 import Image from 'next/image';
+import sparkle from '@/public/assets/images/Star.svg'
+import springle from '@/public/assets/images/springle_orange.svg'
 
 
 const AboutUs = () => {
   return (
     <section className="bg-white relative flex flex-col items-center justify-center">
       <div className="container">
-        <div className="bg-greyish rounded-2xl my-32 py-10 px-8 md:p-16 text-white">
+        <div className="bg-bg_orange border rounded-2xl my-32 py-20 px-8 md:px-16 text-black relative">
+          <Image
+            src={springle}
+            alt='springle'
+            width={200}
+            height={200}
+            className="w-[120px] h-[120px] absolute bottom-[49px] left-[-60px]"
+          />
+          <Image
+            src={sparkle}
+            alt='sparkle'
+            width={120}
+            height={120}
+            className="w-[200px] h-[200px] absolute top-[-57px] right-[-78px]"
+          />
+
           <div className="inner flex flex-col gap-14">
 
-            <h1 className="text-2xl md:text-3xl font-montserrat-bold text-center mx-auto leading-tight">
-              Одень и Попробуй. Начни видеть вновь.
+            <h1 className="text-2xl sm:text-4xl md:text-6xl font-montserrat-bold  text-center mx-auto leading-tight">
+              Начни видеть вновь.
             </h1>
             <div className="flex gap-5 md:gap-32 relative flex-col sm:flex-row sm:justify-between">
               {/*<Image*/}
@@ -61,7 +78,7 @@ const AboutUs = () => {
         alt="home page image"
         width={150}
         height={150}
-        className="absolute bottom-[-75px]"
+        className="absolute bottom-[-75px] z-10"
       />
     </section>
   );

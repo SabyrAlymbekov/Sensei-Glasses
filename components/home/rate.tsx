@@ -13,8 +13,8 @@ const Rate: React.FC<RateProps> = ({ avatar, text, name }) => {
   return (
     <div className=" bg-white rounded-lg p-5 sm:p-8 md:p-10 border border-black">
       <div className="w-full flex flex-col">
-        <p className="text-8xl font-bold leading-[80px] text-orange">“</p>
-        <p className="w-full mb-5">
+        <p className="text-8xl font-bold text-orange h-[50px] mb-5">“</p>
+        <p className="w-full font-montserrat-medium text-xl mb-6">
           {text}
         </p>
         <div className="flex gap-3 items-center">
@@ -27,7 +27,7 @@ const Rate: React.FC<RateProps> = ({ avatar, text, name }) => {
               className="w-full h-full object-cover object-center rounded-full"
             />
           </div>
-          <span className="font-semibold">{name}</span>
+          <span className="font-montserrat-medium text-xs">{name}</span>
         </div>
       </div>
     </div>
